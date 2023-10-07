@@ -8,7 +8,6 @@
 
 
 #include <stdio.h>
-#include <windows.h>
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_primitives.h>
@@ -58,7 +57,6 @@ int main(){
         }
 
         while(pos_x>=10 && pos_x<= width + 20){
-            Sleep(250);
             pos_x += 25;
 
             if(hit == true){
